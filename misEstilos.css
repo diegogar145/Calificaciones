@@ -1,3 +1,11 @@
 body{
     background-color: rgb(33, 63, 2);
 }
+
+button{
+    background-color: aqua;
+}
+
+.mostrar{
+    background-color: rgb(34, 34, 120);
+}
