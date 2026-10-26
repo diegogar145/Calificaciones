@@ -3,11 +3,33 @@
   <link rel="stylesheet" href="misEstilos.css">
   <script src="misScripts.js"></script>
   <body>
+    <h1>Ingrese sus calificaciones</h1>
+    <h3>Español</h3>
+    <input type="number" id="primeraNota">
+    <h3>Matematicas</h3>
+    <input type="number" id="segundaNota">
+    <h3>Ingles</h3>
+    <input type="number" id="terceraNota">
+    <h3>Informatica</h3>
+    <input type="number" id="cuartaNota">
+    <h3>Biologia</h3>
+    <input type="number" id="quintaNota">
+    <button onclick="guardar()">Guardar Notas</button>
+    
+    <h2 id="notaGuardada"></h2>
+
     <br><br>
-  
-    <button class="mostrar">Mostrar Calificaciones</button>
-    <button>Promedio</button>
-    <button>Nota mas alta</button>
-    <button>Materias Perdidas</button>
+    <h2 id="mensaje1"></h2>
+    <button onclick="mensaje()" class="mostrar">Testing</button>
+    <ul><h2 id="notasSemestre"></h2></ul>
+    <button onclick="mostrarCalificaciones()">Mostrar Calificaciones</button>
+    <h2 id="promedioSemestral"></h2>
+    <h2 id="mensajeCalificacion" class="feliciones"></h2>
+    <h2 id="mensajeCalificacion2" class="feliciones2"></h2>
+    <button onclick="promedio()">Promedio</button>
+    <h2 id="mejorNota"></h2>
+    <button onclick="notaMasAlta()">Nota mas alta</button>
+    <h2 id="perdidas"></h2>
+    <button onclick="materiasPerdidas()">Materias Perdidas</button>
   </body>
 </html>

@@ -9,3 +9,13 @@ button{
 .mostrar{
     background-color: rgb(34, 34, 120);
 }
+
+.feliciones{
+    font-style: italic;
+    color: rgb(215, 9, 9);
+}
+
+.feliciones2{
+    font-style: italic;
+    color: rgb(231, 117, 4);
+}
