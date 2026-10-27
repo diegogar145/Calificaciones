@@ -53,7 +53,7 @@ function materiasPerdidas(){
 
         if(notas[x] < 6){
         let elemento = document.createElement("li");
-        elemento.textContent = "Perdiste" + asignaturas[x] + ": "+ notas[x];
+        elemento.textContent = "Perdiste " + asignaturas[x] + ": "+ notas[x];
         lista.appendChild(elemento);
         }else{
             document.getElementById("pasasteTodo") = "Felicitaciones Pasaste todas las Asignaturas";
