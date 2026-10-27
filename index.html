@@ -5,23 +5,19 @@
   <body>
     <h1>Ingrese sus calificaciones</h1>
     <h3>Español</h3>
-    <input type="number" id="primeraNota">
+    <input type="number" id="primeraNota" min="0" max="100">
     <h3>Matematicas</h3>
-    <input type="number" id="segundaNota">
+    <input type="number" id="segundaNota" min="0" max="100">
     <h3>Ingles</h3>
-    <input type="number" id="terceraNota">
+    <input type="number" id="terceraNota" min="0" max="100">
     <h3>Informatica</h3>
-    <input type="number" id="cuartaNota">
+    <input type="number" id="cuartaNota" min="0" max="100">
     <h3>Biologia</h3>
-    <input type="number" id="quintaNota">
+    <input type="number" id="quintaNota" min="0" max="100">
     <button onclick="guardar()">Guardar Notas</button>
     
-    <h2 id="notaGuardada"></h2>
-
     <br><br>
-    <h2 id="mensaje1"></h2>
-    <button onclick="mensaje()" class="mostrar">Testing</button>
-    <ul><h2 id="notasSemestre"></h2></ul>
+    <ul><ol><h2 id="notasSemestre"></h2></ol></h2></ul>
     <button onclick="mostrarCalificaciones()">Mostrar Calificaciones</button>
     <h2 id="promedioSemestral"></h2>
     <h2 id="mensajeCalificacion" class="feliciones"></h2>
@@ -29,7 +25,8 @@
     <button onclick="promedio()">Promedio</button>
     <h2 id="mejorNota"></h2>
     <button onclick="notaMasAlta()">Nota mas alta</button>
-    <h2 id="perdidas"></h2>
+    <ul><ol><h2 id="materiasPerdidas"></h2></ol></h2></ul>
+    <h2 id="pasasteTodo"></h2>
     <button onclick="materiasPerdidas()">Materias Perdidas</button>
   </body>
 </html>
